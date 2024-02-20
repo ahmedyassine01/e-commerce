@@ -1,0 +1,94 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2980b9; /* Blue color */
+    padding: 10px 20px;
+  }
+  
+  /* Navbar logo */
+  .nav-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .nav-logo p {
+    color: #fff; /* White color */
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Navbar menu */
+  .nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px;
+  }
+  
+  .nav-menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: #fff; /* White color */
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-menu li a:hover {
+    color: #3498db; /* Light blue color on hover */
+  }
+  li {
+    color: white;
+  }
+  
+  .nav-logo  {
+    width: 40px; /* Set the width of the image */
+    height: 40px; /* Set the height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 10px; /* Add some space to the right of the image */
+  }
+  /* Navbar login container */
+.navbar-login {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Login button */
+  .navbar-login button {
+    background-color: #3498db; /* Blue color */
+    color: #fff; /* White color */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Login button hover effect */
+  .navbar-login button:hover {
+    background-color: #2980b9; /* Darker blue color on hover */
+  }
+  
+  /* Login image */
+  .navbar-login img {
+    width: 40px; /* Set the width of the image */
+    height: 40px; /* Set the height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+    border-radius: 50%; /* Make the image circular */
+  }
+  

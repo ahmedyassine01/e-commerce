@@ -1,0 +1,74 @@
+
+.sign-up-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .sign-up-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  
+  .sign-up-container input[type="text"],
+  .sign-up-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+ 
+  .sign-up-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4267b2; 
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .sign-up-container button:hover {
+    background-color: #385898; 
+  }
+  
+  
+  .sign-up-container a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #385898; 
+    font-weight: bold;
+  }
+  
+  
+  .sign-up-container a:hover {
+    text-decoration: underline;
+  }
+  
+.sign-up-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fafafa; 
+    background-image: linear-gradient(to bottom right, #ff8c00, #ff0080);
+    background-blend-mode: overlay; 
+  }
+  
+ 
+  
